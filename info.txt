@@ -1,0 +1,14 @@
+
+go mod init github.com/abood1990/rssagg
+
+
+git init 
+
+go get github.com/joho/godotenv   ///to import port automatectlly for our program
+
+go mod vendor  ///copy code to my vendor folder to get local copy of that 
+
+go get github.com/go-chi/chi 
+go get github.com/go-chi/cors
+
+port 5432
