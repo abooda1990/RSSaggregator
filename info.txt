@@ -10,5 +10,10 @@ go mod vendor  ///copy code to my vendor folder to get local copy of that
 
 go get github.com/go-chi/chi 
 go get github.com/go-chi/cors
+go install github.com/sqlc-dev/sqlc/cmd/sqlc@latest
+
+go install github.com/pressly/goose/v3/cmd/goose@latest
+goose postgres postgres://postgres:Abooda1990@localhost:5432/RSSAGG down
+ aqlc generate
 
 port 5432
